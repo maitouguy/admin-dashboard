@@ -167,6 +167,10 @@ main {
   padding: 0;
   position: relative;
   border-left: solid rgb(135, 135, 135) 5px;
+  transition: transform 0.5s;
+}
+.project:hover {
+  transform: scale(1.05) skew(4deg, -5deg);
 }
 .project p {
   width: 90%;
@@ -201,6 +205,10 @@ main {
 .project img {
   width: auto;
   height: 100%;
+  transition: transform 0.5s;
+}
+.project img:hover {
+  transform: rotate(0.1turn);
 }
 
 .right-section {
