@@ -25,12 +25,15 @@ projects.forEach((element) => {
           <div>
             <button>
               <img src="assets/imgs/star.svg" alt="">
+              <hr>
             </button>
             <button>
               <img src="assets/imgs/eye.svg" alt="">
+              <hr>
             </button>
             <button>
               <img src="assets/imgs/share.svg" alt="">
+              <hr>
             </button>
           </div>`;
   pr.classList.add("project");
